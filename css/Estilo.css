@@ -16,6 +16,7 @@ a{text-decoration: none;
 
 body{
     background-color: #444444;
+    color: #f06e9c;
 }
 
 .header{
@@ -81,6 +82,90 @@ body{
 #check-menu, label.menu{
     display: none;
 }
+
+
+/* mi cuenta */
+
+/* p{
+    background-color: #232323;
+    border: 2px #f06e9c solid;
+}
+
+
+.micuenta{
+ display: flex;
+
+}
+
+.iniciar{
+    background-color: #232323;
+    margin: 70px;
+    height: 300px;
+    width: 500px;
+    border: 1px #f06e9c solid;
+    border-radius: 5px;
+
+}
+.iniciar p{
+    border: none;
+    margin-top: 10px;
+}
+
+.iniciar h4{
+    margin-top: 10px;
+}
+
+input{
+    margin-top: 10px;
+    margin-bottom: 30px
+}
+
+.nuevo{
+    margin-top: 190px;
+    margin-left: 150px;
+}
+
+.cliente{
+    margin-top: 35px;
+    margin-left: 200px;
+}
+
+.p1{
+    border: 2px #f06e9c solid;
+    margin-left: 150px;
+    display: inline;
+
+}
+
+h2{
+    padding: 3px;
+    background-color: #232323;
+} */
+
+
+
+
+/* Productos */
+
+
+
+
+
+
+.p-4{ 
+    background-color: #232323;
+    color: #f06e9c;
+
+}
+
+
+
+
+
+
+
+
+
 
 /* Responsive */
 @media (max-width:600px){
