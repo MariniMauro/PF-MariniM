@@ -107,53 +107,6 @@ body{
 
 /* mi cuenta */
 
-/* .micuenta{
- display: flex;
- flex-direction:row;
- 
-
-}
-
-.iniciar{
-    background-color: #232323;
-    margin: 70px;
-    height: 400px;
-    width: 800px;
-    border: 1px #f06e9c solid;
-    border-radius: 5px;
-
-}
-.iniciar p{
-    border: none;
-    margin-top: 10px;
-}
-
-.iniciar h4{
-    margin-top: 10px;
-}
-
-.nuevo{
-
-}
-
-.cliente{
-
-}
-
-.p1{
-    border: 2px #f06e9c solid;
-    margin-left: 150px;
-    display: inline;
-
-}
-
-h2{
-    padding: 3px;
-    background-color: #232323;
-}  */
-
-
-
 .login{
     display: flex;
     align-items: center;
@@ -253,7 +206,7 @@ margin-bottom: 25px;
         position: absolute; 
         height: 100vh;
         top: 50px;
-        width: 100%;
+        width: 1000%;
         height: 150px;
         flex-direction: column;
         background-color:#110f10;
@@ -277,15 +230,18 @@ margin-bottom: 25px;
 
     label.menu{
         display: block;
-        font-size: 1.7em;
+        font-size: 2em;
         color: #f0d8e1;
         cursor: pointer;
+        
+}
     
 
     }
 
     #check-menu:checked ~ul{
-        display: block;
+        display:block;
+        z-index:9999;;
 
 
     }
@@ -294,7 +250,19 @@ margin-bottom: 25px;
         display: flex;
         flex-direction: column;
     }
-}
+
+    #carouselBasicExample{
+        display: none;
+    }
+    
+   .card{
+    margin-bottom: 30px;
+    padding: 20px;
+   }
+
+
+
+
 
 
 
