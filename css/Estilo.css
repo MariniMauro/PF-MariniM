@@ -107,7 +107,7 @@ body{
 
 /* mi cuenta */
 
-.micuenta{
+/* .micuenta{
  display: flex;
  flex-direction:row;
  
@@ -150,7 +150,100 @@ body{
 h2{
     padding: 3px;
     background-color: #232323;
-} 
+}  */
+
+
+
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: arial helvetica sans-serif;
+
+}
+
+.login__form{
+    width: 400px;
+    max-width: 300px;
+    border-radius: 10px;
+    border-top-left-radius:50px ;
+    border-bottom-right-radius:50px ;
+    border: 1px solid #f06e9c;
+    margin: 10px;
+}
+
+.login__form img{
+    width:150px ;
+    display: block;
+    margin: 20px auto;
+
+}
+
+.login__form--text{
+text-align: center ;
+font-size:1.5rem;
+font-weight: 600;
+margin-bottom: 25px;
+
+}
+
+.login__form input{
+    display: block;
+    margin: auto;
+    height: 40px;
+    width: 75%;
+    padding-left: 10px;
+    border: 1px solid #f06e9c;
+    border-radius: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: transparent;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius:10px ;
+    font-size: 1rem;
+    outline: none;
+}
+
+.login__form input[type="password"]{
+    margin-top: 20px;
+}
+
+::placeholder{
+    font-size: 1rem;
+
+}
+
+.login__form input:hover{
+    transition: .5s;
+    border: 1px solid white;
+    color: white;
+
+}
+
+.login__form button{
+    display: block;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom:30px ;
+    height: 40px;
+    width: 78%;
+    background: transparent;
+    color: #f06e9c;
+    border-radius: 2px;
+    cursor: pointer;
+    outline: none;
+    border: 1px solid #f06e9c;
+    transition: all .5 ease;
+}
+
+.login__form button:hover{
+    color: #f06e9c;
+    border: 2px solid #f06e9c;
+   
+}
+
+
+
 
 
 /* Responsive */
@@ -197,6 +290,10 @@ h2{
 
     }
 
+    .login{
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 
