@@ -17,7 +17,7 @@
 
 </head>
 <body>
-    <header class="header">
+  <header class="header">
         
         <div class="logo">
             <a href="./index.html"><img src="../Img/fesbel-logo-removebg-preview.png" alt="logo de la marca" ></a>
@@ -39,39 +39,105 @@
             <a href="https://www.facebook.com/profile.php?id=100063454934494" target="_blank"><i class='bx bxl-facebook-square' style='color:#f06e9c'></i></a>
         
            </div>
-    </header>
+  </header>
 
-<main class="container">
-    <section class="row" >
+
+    <!-- Carousel wrapper -->
+     <section class="container">
+        <div id="carouselBasicExample" class="carousel slide carousel-fade" data-mdb-ride="carousel">
+            <!-- Indicators -->
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-mdb-target="#carouselBasicExample"
+                data-mdb-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-mdb-target="#carouselBasicExample"
+                data-mdb-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-mdb-target="#carouselBasicExample"
+                data-mdb-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+          
+            <!-- Inner -->
+            <div class="carousel-inner">
+              <!-- Single item -->
+              <div class="carousel-item active">
+                <img src="./Img/banner 1.2.jpg" class="d-block w-100" alt="Sunset Over the City"/>
+                <div class="carousel-caption d-none d-md-block">
+                </div> 
+              </div>
+          
+              <!-- Single item -->
+              <div class="carousel-item">
+                <img src="./Img/banner 1.1.jpg" class="d-block w-100" alt="Canyon at Nigh"/>
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+              </div>
+          
+              <!-- Single item -->
+              <div class="carousel-item">
+                <img src="./Img/3 coutas sin interes.jpg" class="d-block w-100" alt="Cliff Above a Stormy Sea"/>
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+              </div>
+            </div>
+            <!-- Inner -->
+          
+            <!-- Controls -->
+            <button class="carousel-control-prev" type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <!-- Carousel wrapper -->
+
+     </section>
+
+
+  <main class="container"></main>
+     <section class="row" >
         <div class="card" style="width: 15rem;">
-            <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/182.webp" class="card-img-top" alt="Sunset Over the Sea"/>
+          <a href="./Paginas/Productos.html"><img src="./Img/lupa blanca.jpeg" class="card-img-top" alt="Sunset Over the Sea"/></a>
             <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-text">PRODUCTOS</p>
             </div>
           </div>
+
           <div class="card" style="width: 15rem;">
-            <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/182.webp" class="card-img-top" alt="Sunset Over the Sea"/>
+          <a href="./Paginas/Productos.html"><img src="./Img/lupacelu.jpeg" class="card-img-top" alt="Sunset Over the Sea"/></a>
             <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-text">50% OFF</p>
             </div>
           </div>
+
           <div class="card" style="width: 15rem;">
-            <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/182.webp" class="card-img-top" alt="Sunset Over the Sea"/>
+            <a href="./Paginas/Nosotros.html"><img src="./Img/empresa.jpeg" class="card-img-top" alt="Sunset Over the Sea"/></a>
             <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-text">NOSOTROS</p>
             </div>
           </div>
 
           </div>
-    </section>
- 
+     </section>
+   </main>
 
 
-
-</main>
-
-
-<section class="footer">
+   <section class="footer">
     <!-- Footer -->
     <footer class="bg-secondary text text-center">
       <!-- Grid container -->
@@ -133,9 +199,10 @@
       <!-- Copyright -->
     </footer>
     <!-- Footer -->
-  </section>
+   </section>
 
- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js">
+   <!-- MDB -->
+   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.js"></script>
 </body>
 
 </html>
