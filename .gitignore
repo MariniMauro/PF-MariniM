@@ -82,6 +82,6 @@ $RECYCLE.BIN/
 *.txt
 backup-css/
 bootsrap=5.2.3=-dist
-img
+
 
 # End of https://www.toptal.com/developers/gitignore/api/windows,macos,visualstudiocode
