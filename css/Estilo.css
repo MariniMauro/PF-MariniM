@@ -200,7 +200,7 @@ margin-bottom: 25px;
 
 
 /* Responsive */
-@media (max-width:600px){
+@media (max-width:767px){
     .navbar ul{
         display: none;
         position: absolute; 
@@ -233,16 +233,12 @@ margin-bottom: 25px;
         font-size: 2em;
         color: #f0d8e1;
         cursor: pointer;
-        
-}
-    
-
+       
     }
 
     #check-menu:checked ~ul{
         display:block;
-        z-index:9999;;
-
+        z-index:9999;
 
     }
 
@@ -259,6 +255,11 @@ margin-bottom: 25px;
     margin-bottom: 30px;
     padding: 20px;
    }
+
+}
+    
+
+
 
 
 
