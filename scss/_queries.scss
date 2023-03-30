@@ -1,0 +1,50 @@
+@media (max-width: 767px) {
+    .navbar ul {
+    display: none;
+    position: absolute;
+    height: 100vh;
+    top: 50px;
+    width: 1000%;
+    height: 150px;
+    flex-direction: column;
+    background-color: #110f10;
+    justify-content: space-around;
+    }
+    
+    .header .logo {
+    justify-content: flex-end;
+    order: 3;
+    }
+    
+    .redestop a {
+    display: none;
+    }
+    
+    label.menu { display: block;
+        font-size: 2em;
+        color: #f0d8e1;
+        cursor: pointer;
+       
+    }
+    
+    #check-menu:checked ~ul{
+        display:block;
+        z-index:9999;
+    
+    }
+    
+    .login{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #carouselBasicExample{
+        display: none;
+    }
+    
+    .card{
+    margin-bottom: 30px;
+    padding: 20px;
+    }
+    
+    }
