@@ -1,6 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200;700&display=swap");
-/* Responsive */
 /* general */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200;700&display=swap");
 * {
   box-sizing: border-box;
   margin: 0;
@@ -68,7 +67,6 @@ label.menu {
   display: none;
 }
 
-/* Index */
 .container {
   justify-content: center;
   padding: 50px;
