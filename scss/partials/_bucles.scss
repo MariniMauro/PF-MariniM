@@ -1,4 +1,6 @@
-//  @each $color in #110f10, #2e1823{
-//     .#{background-color: $color;
-//     }
-//  }
+@each $background-color in black, grey{
+    .#{$background-color}{
+        background-color: $background-color;
+    }
+}
+

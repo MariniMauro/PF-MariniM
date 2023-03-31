@@ -78,7 +78,6 @@ label.menu {
 }
 
 .card {
-  background-color: #110f10;
   margin-bottom: 30px;
   padding: 30px;
 }
@@ -198,6 +197,13 @@ label.menu {
     margin-bottom: 30px;
     padding: 20px;
   }
+}
+.black {
+  background-color: black;
+}
+
+.grey {
+  background-color: grey;
 }
 
 /*# sourceMappingURL=estilo.css.map */
