@@ -1,5 +1,8 @@
 @import "partials/reset";
 @import "partials/fonts";
+@import "partials/mixin";
+
+@include encabezados();
 
 body {
 background-color: #232323;
