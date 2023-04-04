@@ -99,7 +99,8 @@ label.menu {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  /* revisar en sass */
+  height: 75vh;
   font-family: arial helvetica sans-serif;
 }
 .login .login__form {
@@ -216,6 +217,11 @@ label.menu {
 
 .grey {
   background-color: grey;
+}
+
+/*acomodar con sass*/
+.contacto{
+  margin: 100px 100px 100px 100px ;
 }
 
 /*# sourceMappingURL=estilo.css.map */
