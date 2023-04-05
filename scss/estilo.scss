@@ -177,102 +177,102 @@ border: 2px solid #f06e9c;
 }
 
 .contacto{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 60vh;
-        font-family: arial helvetica sans-serif;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 60vh;
+font-family: arial helvetica sans-serif;
         
         
         
-        .contacto__form {
-        width: 1000px;
-        max-width: 600px;
-        border-radius: 10px;
-        border-top-left-radius: 50px;
-        border-bottom-right-radius: 50px;
-        border: 1px solid #f06e9c;
-        margin: 10px;
-        }
+.contacto__form {
+width: 1000px;
+max-width: 600px;
+border-radius: 10px;
+border-top-left-radius: 50px;
+border-bottom-right-radius: 50px;
+border: 1px solid #f06e9c;
+margin: 10px;
+}
                
-        .contacto__form--text {
-        text-align: center;
-        font-size: 1.5rem;
-        font-weight: 600;
-        margin-bottom: 25px;
-        color:white
-        }
+.contacto__form--text {
+text-align: center;
+font-size: 1.5rem;
+font-weight: 600;
+margin-bottom: 25px;
+color:white
+}
         
-        input {
-        display: block;
-        margin: auto;
-        height: 40px;
-        width: 75%;
-        padding-left: 10px;
-        border: 1px solid #f06e9c;
-        border-radius: 2px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        background-color: transparent;
-        border-top-left-radius: 10px;
-        border-bottom-right-radius: 10px;
-        font-size: 1rem;
-        outline: none;
-        color:white
-        }
+input {
+display: block;
+margin: auto;
+height: 40px;
+width: 75%;
+padding-left: 10px;
+border: 1px solid #f06e9c;
+border-radius: 2px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+background-color: transparent;
+border-top-left-radius: 10px;
+border-bottom-right-radius: 10px;
+font-size: 1rem;
+outline: none;
+color:white
+}
         
-        input[type="email"] {
-        margin-top: 25px;
-        }
+input[type="email"] {
+ margin-top: 25px;
+}
 
-        .form-control{
-            display: block;
-            margin: auto;
-            width: 75%;
-            padding-left: 10px;
-            border: 1px solid #f06e9c;
-            border-radius: 2px;
-            font-family: Verdana, Verdana, Geneva, Tahoma, sans-serif, Tahoma, sans-serif;
-            background-color: transparent;
-            border-top-left-radius: 10px;
-            border-bottom-right-radius: 10px;
-            font-size: 1rem;
-            outline: none;
-            margin-top: 25px;
-            color:white
+.form-control{
+display: block;
+margin: auto;
+width: 75%;
+padding-left: 10px;
+border: 1px solid #f06e9c;
+border-radius: 2px;
+font-family: Verdana, Verdana, Geneva, Tahoma, sans-serif, Tahoma, sans-serif;
+background-color: transparent;
+border-top-left-radius: 10px;
+border-bottom-right-radius: 10px;
+font-size: 1rem;
+outline: none;
+margin-top: 25px;
+color:white
             
             
-        }
+}
         
-        ::placeholder {
-        font-size: 1rem;
-        }
+::placeholder {
+ font-size: 1rem;
+ }
         
-        input:hover {
-        transition: 0.5s;
-        border: 1px solid white;
-        color: white;
-        }
+ input:hover {
+ transition: 0.5s;
+ border: 1px solid white;
+ color: white;
+ }
         
-        button {
-        display: block;
-        margin: auto;
-        margin-top: 25px;
-        margin-bottom: 30px;
-        height: 40px;
-        width: 78%;
-        background: transparent;
-        color: #f06e9c;
-        border-radius: 2px;
-        cursor: pointer;
-        outline: none;
-        border: 1px solid #f06e9c;
-        transition: all 0.5 ease;
-        }
+button {
+ display: block;
+margin: auto;
+ margin-top: 25px;
+margin-bottom: 30px;
+height: 40px;
+width: 78%;
+background: transparent;
+color: #f06e9c;
+border-radius: 2px;
+cursor: pointer;
+outline: none;
+border: 1px solid #f06e9c;
+transition: all 0.5 ease;
+}
         
-        button:hover {
-        color: #f06e9c;
-        border: 2px solid #f06e9c;
-        }
+button:hover {
+color: #f06e9c;
+border: 2px solid #f06e9c;
+}
     
 }
 
