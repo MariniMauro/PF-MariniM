@@ -1,6 +1,12 @@
-@each $background-color in black, grey{
+$background-color:(
+    black: #000000,
+    rosa: #f06e9c,
+    grey: #232323
+);
+
+@each $background-color, $color in $background-color{
     .#{$background-color}{
-        background-color: $background-color;
+        background-color: #{$color};
     }
 }
 

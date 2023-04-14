@@ -298,11 +298,15 @@ label.menu {
   }
 }
 .black {
-  background-color: black;
+  background-color: #000000;
+}
+
+.rosa {
+  background-color: #f06e9c;
 }
 
 .grey {
-  background-color: grey;
+  background-color: #232323;
 }
 
 /*# sourceMappingURL=estilo.css.map */
