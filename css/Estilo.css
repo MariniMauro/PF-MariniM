@@ -101,6 +101,8 @@ label.menu {
   justify-content: center;
   height: 60vh;
   font-family: arial helvetica sans-serif;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 .login .login__form {
   width: 400px;
@@ -175,6 +177,7 @@ label.menu {
   justify-content: center;
   height: 60vh;
   font-family: arial helvetica sans-serif;
+  margin: 100px;
 }
 .contacto .contacto__form {
   width: 1000px;
@@ -188,7 +191,7 @@ label.menu {
 .contacto .contacto__form--text {
   text-align: center;
   font-size: 1.5rem;
-  font-weight: 600;
+  font-weight: 600px;
   margin-bottom: 25px;
   color: white;
 }
@@ -222,10 +225,11 @@ label.menu {
   background-color: transparent;
   border-top-left-radius: 10px;
   border-bottom-right-radius: 10px;
-  font-size: 1rem;
+  font-size: 0.8rem;
   outline: none;
   margin-top: 25px;
   color: white;
+  max-height: 100px;
 }
 .contacto ::placeholder {
   font-size: 1rem;

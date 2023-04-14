@@ -1,254 +1,312 @@
-/* link fonts */
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;700&display=swap');
-
 /* general */
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Raleway', sans-serif;
-    font-size: 20px;
-
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200;700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
 }
 
-a{text-decoration: none;
-    color: #f06e9c;}
-
-body{
-    background-color: #232323;
-    color: #f06e9c;
+a {
+  text-decoration: none;
+  color: #f06e9c;
 }
 
-.header{
-    background-color: #232323;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 85px;
-    padding: 5px 10% ;
-    border-bottom: 2px solid #f06e9c;
-    
-
+h1 {
+  font-size: 2.5em;
 }
 
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1.3em;
+}
+
+body {
+  background-color: #232323;
+  color: #f06e9c;
+}
+
+.header {
+  background-color: #232323;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 85px;
+  padding: 5px 10%;
+  border-bottom: 2px solid #f06e9c;
+}
 .header .logo {
-    cursor: pointer;
-
-
+  cursor: pointer;
+}
+.header .logo img {
+  height: 90px;
+  width: auto;
+  transition: 0.3s;
+}
+.header .logo img:hover {
+  transform: scale(1.2);
+}
+.header .nav--links {
+  list-style: none;
+}
+.header li {
+  display: inline-block;
+  padding: 0 20px;
+}
+.header li:hover {
+  transform: scale(1.1);
+}
+.header a {
+  font-size: 700;
+  text-decoration: none;
+}
+.header ul {
+  display: flex;
+}
+.header a:hover {
+  color: #f0d8e1;
+}
+.header .header .redestop i:hover {
+  transform: scale(1.2);
 }
 
-.header .logo img{
-    height: 90px;
-    width: auto;
-    transition:0.3s;
+#check-menu,
+label.menu {
+  display: none;
 }
 
-.header .logo img:hover{
-    transform: scale(1.2);
+.container {
+  justify-content: center;
+  padding: 50px;
 }
 
-.header .nav-links{
-    list-style: none;
-
+.row {
+  justify-content: space-evenly;
+  padding: 50px;
 }
 
-.header .nav-links li{
-    display: inline-block;
-    padding: 0 20px;
-
+.card {
+  margin-bottom: 30px;
+  padding: 30px;
 }
-
-.header .nav-links li:hover{
-    transform: scale(1.1);
-}
-
-.header .nav-links a{
-    font-size: 700;
-    text-decoration: none;
-
-}
-
-.navbar ul{
-    display: flex;
-}
-
-.header .nav-links li a:hover{
-    color: #f0d8e1;
-}
-
-.header .redestop i:hover{
-    transform: scale(1.2);
-}
-
-
-#check-menu, label.menu{
-    display: none;
-}
-
-
-/* Index */
-
-
-.container{
-    justify-content: center;
-    padding: 50px 50px;
-    background-color: #232323; 
-    
-}
-
-main{
-    background-color:#232323;
-}
-
-.row{
-    justify-content: space-between;
-    padding:50px ;
-    
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* mi cuenta */
-
-/* p{
-    background-color: #232323;
-    border: 2px #f06e9c solid;
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+  font-family: arial helvetica sans-serif;
+}
+.login .login__form {
+  width: 400px;
+  max-width: 300px;
+  border-radius: 10px;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border: 1px solid #f06e9c;
+  margin: 10px;
+}
+.login img {
+  width: 150px;
+  display: block;
+  margin: 20px auto;
+}
+.login .login__form--text {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+.login input {
+  display: block;
+  margin: auto;
+  height: 40px;
+  width: 75%;
+  padding-left: 10px;
+  border: 1px solid #f06e9c;
+  border-radius: 2px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: transparent;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  font-size: 1rem;
+  outline: none;
+  color: white;
+}
+.login input[type=password] {
+  margin-top: 20px;
+}
+.login ::placeholder {
+  font-size: 1rem;
+}
+.login input:hover {
+  transition: 0.5s;
+  border: 1px solid white;
+  color: white;
+}
+.login button {
+  display: block;
+  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 30px;
+  height: 40px;
+  width: 78%;
+  background: transparent;
+  color: #f06e9c;
+  border-radius: 2px;
+  cursor: pointer;
+  outline: none;
+  border: 1px solid #f06e9c;
+  transition: all 0.5 ease;
+}
+.login button:hover {
+  color: #f06e9c;
+  border: 2px solid #f06e9c;
 }
 
-
-.micuenta{
- display: flex;
-
+.contacto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+  font-family: arial helvetica sans-serif;
 }
-
-.iniciar{
-    background-color: #232323;
-    margin: 70px;
-    height: 300px;
-    width: 500px;
-    border: 1px #f06e9c solid;
-    border-radius: 5px;
-
+.contacto .contacto__form {
+  width: 1000px;
+  max-width: 600px;
+  border-radius: 10px;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border: 1px solid #f06e9c;
+  margin: 10px;
 }
-.iniciar p{
-    border: none;
-    margin-top: 10px;
+.contacto .contacto__form--text {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 25px;
+  color: white;
 }
-
-.iniciar h4{
-    margin-top: 10px;
+.contacto input {
+  display: block;
+  margin: auto;
+  height: 40px;
+  width: 75%;
+  padding-left: 10px;
+  border: 1px solid #f06e9c;
+  border-radius: 2px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: transparent;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  font-size: 1rem;
+  outline: none;
+  color: white;
 }
-
-input{
-    margin-top: 10px;
-    margin-bottom: 30px
+.contacto input[type=email] {
+  margin-top: 25px;
 }
-
-.nuevo{
-    margin-top: 190px;
-    margin-left: 150px;
+.contacto .form-control {
+  display: block;
+  margin: auto;
+  width: 75%;
+  padding-left: 10px;
+  border: 1px solid #f06e9c;
+  border-radius: 2px;
+  font-family: Verdana, Verdana, Geneva, Tahoma, sans-serif, Tahoma, sans-serif;
+  background-color: transparent;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  font-size: 1rem;
+  outline: none;
+  margin-top: 25px;
+  color: white;
 }
-
-.cliente{
-    margin-top: 35px;
-    margin-left: 200px;
+.contacto ::placeholder {
+  font-size: 1rem;
 }
-
-.p1{
-    border: 2px #f06e9c solid;
-    margin-left: 150px;
-    display: inline;
-
+.contacto input:hover {
+  transition: 0.5s;
+  border: 1px solid white;
+  color: white;
 }
-
-h2{
-    padding: 3px;
-    background-color: #232323;
-} */
-
-
-
-
-/* Productos */
-
-
-
-
-
-
-.p-4{ 
-    background-color:#444444;
-    color: #f06e9c;
-
+.contacto button {
+  display: block;
+  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 30px;
+  height: 40px;
+  width: 78%;
+  background: transparent;
+  color: #f06e9c;
+  border-radius: 2px;
+  cursor: pointer;
+  outline: none;
+  border: 1px solid #f06e9c;
+  transition: all 0.5 ease;
 }
-
-
-
-
-
-
-
-
-
+.contacto button:hover {
+  color: #f06e9c;
+  border: 2px solid #f06e9c;
+}
 
 /* Responsive */
-@media (max-width:600px){
-    .navbar ul{
-        display: none;
-        position: absolute; 
-        height: 100vh;
-        top: 50px;
-        width: 100%;
-        height: 150px;
-        flex-direction: column;
-        background-color:#110f10;
-        justify-content: space-around;
-        
-
-        
-    }
-
-    .header .logo{
-        justify-content: flex-end;
-        order: 3;
-        
-    }
-
-    .redestop a{
-        display: none;
-    }
-
-
-
-    label.menu{
-        display: block;
-        font-size: 1.7em;
-        color: #f0d8e1;
-        cursor: pointer;
-    
-
-    }
-
-    #check-menu:checked ~ul{
-        display: block;
-
-
-    }
-
+@media (max-width: 767px) {
+  .navbar ul {
+    display: none;
+    position: absolute;
+    height: 100vh;
+    top: 50px;
+    width: 1000%;
+    height: 150px;
+    flex-direction: column;
+    background-color: #110f10;
+    justify-content: space-around;
+  }
+  .header .logo {
+    justify-content: flex-end;
+    order: 3;
+  }
+  .redestop a {
+    display: none;
+  }
+  label.menu {
+    display: block;
+    font-size: 2em;
+    color: #f0d8e1;
+    cursor: pointer;
+  }
+  #check-menu:checked ~ ul {
+    display: block;
+    z-index: 9999;
+  }
+  .login {
+    display: flex;
+    flex-direction: column;
+  }
+  #carouselBasicExample {
+    display: none;
+  }
+  .card {
+    margin-bottom: 30px;
+    padding: 20px;
+  }
+}
+.black {
+  background-color: #000000;
 }
 
+.rosa {
+  background-color: #f06e9c;
+}
 
+.grey {
+  background-color: #232323;
+}
 
-    
-
+/*# sourceMappingURL=estilo.css.map */
